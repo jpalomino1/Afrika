@@ -61,11 +61,7 @@ afrika/
 ## Publicación
 
 El sitio puede publicarse directamente en Netlify mediante su modalidad de implementación manual, sin necesidad de configurar un servidor o proceso de compilación.
-
-1. Ingresar a https://app.netlify.com/drop.
-2. Arrastrar la carpeta `afrika` o un ZIP con el proyecto.
-3. Esperar a que finalice la publicación.
-4. Abrir la URL generada.
+Actualmente esta publicado en la siguiente URL: https://afrika-tesis.netlify.app/
 
 ## Código QR
 
