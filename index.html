@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alfajor Afrika · Innovación, Sabor y Desarrollo Tecnológico</title>
+<meta name="description" content="Afrika es un alfajor artesanal sin TACC, con alto contenido de fibra y fortificado con vitamina C: harina de coco, cacao amargo, cobertura de chocolate semi amargo y relleno de mousse de naranja.">
+<meta name="theme-color" content="#FF9A00">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alfajor Afrika · Innovación, Sabor y Desarrollo Tecnológico">
+<meta property="og:description" content="Alfajor artesanal sin TACC, alto en fibra y fortificado con vitamina C. Conocé el producto y su procedimiento.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(d){d.classList.add('js');try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('fx')}catch(e){}})(document.documentElement)</script>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/bagel-fat-one-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/quicksand-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<canvas id="dust" aria-hidden="true"></canvas>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#inicio" aria-label="Afrika, ir al inicio">
+    <img src="img/logo-afrika.webp" alt="" width="40" height="40">
+    <span>Afrika</span>
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">
+    <span class="sr">Menú</span><i aria-hidden="true"></i><i aria-hidden="true"></i><i aria-hidden="true"></i>
+  </button>
+  <nav class="nav" id="nav" aria-label="Secciones">
+    <a href="#que-es">¿Qué es Afrika?</a>
+    <a href="#objetivo">Objetivo</a>
+    <a href="#resultado">Resultado esperado</a>
+    <a href="#procedimiento">Procedimiento</a>
+    <a href="#saber-mas">Para saber más</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#compartir" class="nav-cta">Compartir</a>
+  </nav>
+  <i class="bar" aria-hidden="true"></i>
+</header>
+
+<main id="contenido">
+
+<!-- ═════════ PORTADA ═════════ -->
+<section class="scene hero" id="inicio" data-scene="hero" data-pin style="--len:4" aria-labelledby="h-hero">
+  <div class="pin">
+    <div class="hero-bg" aria-hidden="true">
+      <i class="hb-dark"></i>
+      <img class="hb-photo" src="img/hero-blur.webp" alt="" width="48" height="48">
+      <i class="glow"></i>
+    </div>
+
+    <img class="d hd d-citricos-top" style="--d:.35;--r:.4;--k:0" src="img/deco-citricos-top.webp" alt="" width="210" height="185" aria-hidden="true">
+    <img class="d hd d-citricos-bot" style="--d:.45;--r:-.4;--k:1" src="img/deco-citricos-bot.webp" alt="" width="190" height="209" aria-hidden="true">
+    <img class="d hd d-citricos-bot2" style="--d:.6;--r:.5;--k:2" src="img/deco-citricos-bot2.webp" alt="" width="152" height="209" aria-hidden="true">
+    <img class="d hd d-coco" style="--d:1;--r:-1;--k:3;--fd:7s" src="img/deco-coco.webp" alt="" width="220" height="184" aria-hidden="true">
+    <img class="d hd d-choco" style="--d:1.35;--r:1;--k:4;--fd:9s" src="img/deco-chocolate.webp" alt="" width="200" height="115" aria-hidden="true">
+    <img class="d hd d-harina" style="--d:.75;--r:.8;--k:5;--fd:8s" src="img/deco-harina.webp" alt="" width="160" height="189" aria-hidden="true">
+
+    <img class="escuela" src="img/escuela.webp" width="96" height="95" alt="Escudo de la E.E.S. N°7 – E.E.S.T. N°3 Roberto Arlt">
+
+    <h1 id="h-hero">
+      <span class="t-alfajor" data-split>Alfajor</span>
+      <span class="t-afrika" data-split>Afrika</span>
+    </h1>
+
+    <figure class="hero-photo">
+      <div class="frame">
+        <img src="img/hero.webp" width="780" height="788" alt="Alfajor Afrika cortado al medio: tapas de cacao, relleno de mousse de naranja y cobertura de chocolate semi amargo" fetchpriority="high">
+      </div>
+      <img class="hero-badge" src="img/singluten.webp" width="402" height="428" alt="Sello Sin gluten">
+    </figure>
+
+    <div class="hero-copy">
+      <p class="lema">Innovación, Sabor y<br>Desarrollo Tecnológico</p>
+      <div class="hero-btns">
+        <a class="btn btn-light" href="#que-es">Conocé Afrika</a>
+        <a class="btn btn-line" href="#procedimiento">Ver el procedimiento</a>
+      </div>
+    </div>
+
+    <p class="hero-cap" aria-hidden="true"><span>Sin TACC</span><span>Alto en fibra</span><span>Vitamina C</span></p>
+    <p class="cue" aria-hidden="true"><span>Scroll</span><i></i></p>
+    <i class="shade" aria-hidden="true"></i>
+  </div>
+</section>
+
+<!-- ═════════ ¿QUÉ ES AFRIKA? ═════════ -->
+<section class="about-wrap" id="que-es" aria-labelledby="h-que">
+
+  <div class="scene about" data-scene="about" data-pin style="--len:3" data-from=".12" data-to=".78">
+    <div class="pin">
+      <img class="px" style="--s:-.5;--r:1" src="img/deco-citricos-top.webp" alt="" width="210" height="185" aria-hidden="true" loading="lazy">
+      <div class="wrap about-grid">
+        <h2 id="h-que"><span class="l"><span>¿Qué</span></span> <span class="l"><span class="alt">es Afrika?</span></span></h2>
+        <div class="about-text" data-words>
+          <p class="lead">Es un alfajor artesanal <strong>sin TACC</strong>, con alto contenido de fibra y fortificado con <strong>vitamina C</strong>.</p>
+          <p>Sus sabores principales son harina de coco, cacao amargo, cubierto con chocolate semi amargo relleno de mousse de naranja.</p>
+          <p>Pensado para personas con celiaquía y personas que quieren innovar sabores.</p>
+        </div>
+        <div class="logo3d">
+          <img class="logo-big" src="img/logo-afrika.webp" width="512" height="512" alt="Logo de Afrika: una letra A estilizada en naranja sobre círculo gris oscuro" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scene feat" data-scene="feat" aria-labelledby="h-car">
+    <div class="wrap"><h3 class="sub" id="h-car">Sus características</h3></div>
+    <div class="marq">
+      <ul class="chips row-a">
+        <li>Artesanal</li>
+        <li>Sin TACC</li>
+        <li>Alto contenido de fibra</li>
+        <li>Fortificado con vitamina C</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="scene flavors" data-scene="flavors" data-pin style="--n:4;--len:5" aria-labelledby="h-sab">
+    <div class="pin">
+      <div class="fl-head"><h3 id="h-sab">Sus sabores</h3><span class="fl-count" aria-hidden="true">1 / 4</span></div>
+      <div class="track">
+        <article class="panel p-coco" style="--i:0">
+          <div class="art">
+            <img class="a-main" src="img/deco-coco.webp" alt="" width="220" height="184">
+            <img class="a-sub" src="img/deco-harina.webp" alt="" width="160" height="189">
+          </div>
+          <div class="txt"><span class="role">Sabor principal</span><h4>Harina de coco</h4><span class="emo" aria-hidden="true">🥥</span></div>
+        </article>
+        <article class="panel p-cacao" style="--i:1">
+          <div class="art">
+            <span class="disc"><img src="img/masa.webp" alt="" width="480" height="480"></span>
+          </div>
+          <div class="txt"><span class="role">Sabor principal</span><h4>Cacao amargo</h4><span class="emo" aria-hidden="true">🍫</span></div>
+        </article>
+        <article class="panel p-choco" style="--i:2">
+          <div class="art">
+            <span class="disc"><img src="img/cobertura.webp" alt="" width="480" height="480"></span>
+            <img class="a-sub" src="img/deco-chocolate.webp" alt="" width="200" height="115">
+          </div>
+          <div class="txt"><span class="role">Cobertura</span><h4>Chocolate semi amargo</h4><span class="emo" aria-hidden="true">🍫</span></div>
+        </article>
+        <article class="panel p-naranja" style="--i:3">
+          <div class="art">
+            <span class="disc"><img src="img/relleno.webp" alt="" width="480" height="480"></span>
+            <img class="a-sub" src="img/deco-citricos-bot2.webp" alt="" width="152" height="209">
+          </div>
+          <div class="txt"><span class="role">Relleno</span><h4>Mousse de naranja</h4><span class="emo" aria-hidden="true">🍊</span></div>
+        </article>
+      </div>
+      <i class="fl-bar" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <div class="scene aud" data-scene="aud" aria-labelledby="h-aud">
+    <div class="wrap">
+      <h3 class="sub" id="h-aud">¿Para quién es?</h3>
+      <div class="aud-row">
+        <article class="aud-card a1"><h4>Personas con celiaquía</h4><p>Un alfajor pensado para ellas.</p></article>
+        <article class="aud-card a2"><h4>Quienes quieren innovar sabores</h4><p>Una combinación distinta de cacao, coco y naranja.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ OBJETIVO ═════════ -->
+<section class="obj-wrap" id="objetivo" aria-labelledby="h-obj">
+  <div class="scene obj" data-scene="obj" data-pin style="--len:3" data-from=".1" data-to=".78">
+    <div class="pin">
+      <i class="obj-glow" aria-hidden="true"></i>
+      <div class="wrap obj-grid">
+        <h2 id="h-obj"><span class="l"><span>Objetivo</span></span></h2>
+        <blockquote class="objetivo" data-words>
+          <p>El objetivo de nuestro producto fue crear un alfajor innovador y atractivo para el consumidor principalmente para personas con la enfermedad de celiaquia y que tenga un valor nutricional extra e incorporar nuestro apendizaje</p>
+        </blockquote>
+        <img class="seal" src="img/singluten.webp" width="402" height="428" alt="Sello Sin gluten: una espiga de trigo tachada" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="scene goals-scene" data-scene="goals">
+    <div class="wrap">
+      <ul class="goals" aria-label="Metas del objetivo">
+        <li style="--i:0"><b>Innovador y atractivo</b> para el consumidor</li>
+        <li style="--i:1">Pensado <b>principalmente para personas con celiaquía</b></li>
+        <li style="--i:2">Con un <b>valor nutricional extra</b></li>
+        <li style="--i:3">Que <b>incorpore nuestro aprendizaje</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ RESULTADO ESPERADO ═════════ -->
+<section class="scene res" id="resultado" data-scene="res" aria-labelledby="h-res">
+  <div class="res-bg" aria-hidden="true"></div>
+  <p class="res-marq" aria-hidden="true"><span>Alfajor Afrika Alfajor Afrika Alfajor Afrika Alfajor Afrika</span></p>
+  <img class="px d-harina2" style="--s:-.35;--r:-1" src="img/deco-harina.webp" alt="" width="160" height="189" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <h2 id="h-res"><span class="l"><span>Resultado</span></span><br><span class="l"><span>esperado</span></span></h2>
+    <p class="lead">Obtener un Alfajor:</p>
+    <ol class="results">
+      <li style="--dir:-1"><span class="n">1</span>Cítrico</li>
+      <li style="--dir:1"><span class="n">2</span>Chocolatoso</li>
+      <li style="--dir:-1"><span class="n">3</span>Con harina de coco</li>
+      <li style="--dir:1"><span class="n">4</span>Alto en fibra</li>
+      <li style="--dir:-1"><span class="n">5</span>Sin TACC</li>
+      <li style="--dir:1"><span class="n">6</span>Innovador y atractivo</li>
+    </ol>
+    <p class="closing">Una propuesta diferente para disfrutar un nuevo sabor.</p>
+  </div>
+</section>
+
+<!-- ═════════ PROCEDIMIENTO ═════════ -->
+<section class="scene proc" id="procedimiento" data-scene="proc" data-pin style="--n:6;--len:8" aria-labelledby="h-proc">
+  <div class="pin">
+    <i class="proc-glow" aria-hidden="true"></i>
+    <header class="proc-head">
+      <h2 id="h-proc">Procedimiento</h2>
+      <p class="kicker">Desarrollo tecnológico</p>
+      <p class="lead">De la selección de materias primas al producto final.</p>
+    </header>
+    <svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="ring-bg" cx="50" cy="50" r="48.5"/><circle class="ring-fg" cx="50" cy="50" r="48.5" pathLength="1"/></svg>
+    <ol class="steps">
+      <li class="step" style="--i:0">
+        <button class="ph" data-full="img/bpm.webp" data-cap="BPM: el equipo trabajando con ropa e indumentaria de elaboración" aria-label="Ampliar foto: BPM">
+          <img src="img/bpm.webp" width="480" height="480" alt="Tres integrantes del equipo con cofia, barbijo, guardapolvo y guantes en la cocina de elaboración" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">01</span><span class="num">Paso 1</span><h3>BPM</h3></div>
+      </li>
+      <li class="step" style="--i:1">
+        <button class="ph" data-full="img/pesaje.webp" data-cap="Pesaje de materias primas" aria-label="Ampliar foto: Pesaje">
+          <img src="img/pesaje.webp" width="480" height="480" alt="Pesaje de harina en un bowl de vidrio sobre una balanza digital" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">02</span><span class="num">Paso 2</span><h3>Pesaje</h3></div>
+      </li>
+      <li class="step" style="--i:2">
+        <button class="ph" data-full="img/masa.webp" data-cap="Masa de cacao cortada en discos" aria-label="Ampliar foto: Masa">
+          <img src="img/masa.webp" width="480" height="480" alt="Masa de cacao estirada con discos ya cortados, manos con guantes celestes" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">03</span><span class="num">Paso 3</span><h3>Masa</h3></div>
+      </li>
+      <li class="step" style="--i:3">
+        <button class="ph" data-full="img/relleno.webp" data-cap="Relleno con la mousse" aria-label="Ampliar foto: Relleno con la mousse">
+          <img src="img/relleno.webp" width="480" height="480" alt="Tapas de cacao sobre una rejilla con mousse de naranja colocada encima" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">04</span><span class="num">Paso 4</span><h3>Relleno con la mousse</h3></div>
+      </li>
+      <li class="step" style="--i:4">
+        <button class="ph" data-full="img/cobertura.webp" data-cap="Cobertura de chocolate" aria-label="Ampliar foto: Cobertura">
+          <img src="img/cobertura.webp" width="480" height="480" alt="Alfajores recién bañados en chocolate sobre papel manteca" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">05</span><span class="num">Paso 5</span><h3>Cobertura</h3></div>
+      </li>
+      <li class="step" style="--i:5">
+        <button class="ph" data-full="img/producto-final.webp" data-cap="Producto final" aria-label="Ampliar foto: Producto final">
+          <img src="img/producto-final.webp" width="480" height="480" alt="Alfajor Afrika terminado, cortado al medio mostrando el relleno de mousse de naranja" loading="lazy">
+        </button>
+        <div class="txt"><span class="big" aria-hidden="true">06</span><span class="num">Paso 6</span><h3>Producto final</h3></div>
+      </li>
+    </ol>
+    <p class="hint">Tocá cualquier foto para verla en grande.</p>
+  </div>
+</section>
+
+<!-- ═════════ PARA SABER MÁS ═════════ -->
+<section class="scene more" id="saber-mas" data-scene="more" aria-labelledby="h-mas">
+  <div class="wrap narrow">
+    <h2 id="h-mas"><span class="l"><span>Para saber más</span></span></h2>
+    <p class="lead">Breve glosario de los términos que aparecen en el tríptico.</p>
+    <div class="acc">
+      <details style="--i:0;--dir:-1">
+        <summary>¿Qué significa TACC?</summary>
+        <p>Es la sigla de <strong>T</strong>rigo, <strong>A</strong>vena, <strong>C</strong>ebada y <strong>C</strong>enteno, los cereales que contienen gluten. Un alimento “sin TACC” se elabora sin esos cereales ni sus derivados.</p>
+      </details>
+      <details style="--i:1;--dir:1">
+        <summary>¿Qué es la celiaquía?</summary>
+        <p>Es una enfermedad en la que el organismo no tolera el gluten. Por eso, las personas con celiaquía necesitan alimentos sin gluten, como Afrika.</p>
+      </details>
+      <details style="--i:2;--dir:-1">
+        <summary>¿Qué son las BPM?</summary>
+        <p>Son las <strong>Buenas Prácticas de Manufactura</strong>: normas de higiene y de manejo de los alimentos que se aplican durante la elaboración. Por eso el procedimiento comienza con este paso.</p>
+      </details>
+      <details style="--i:3;--dir:1">
+        <summary>¿Qué significa “fortificado con vitamina C”?</summary>
+        <p>Que al producto se le agrega vitamina C como nutriente extra, para sumar valor nutricional.</p>
+      </details>
+    </div>
+    <p class="note">Definiciones generales de referencia, incluidas para ampliar la información del tríptico.</p>
+  </div>
+</section>
+
+<!-- ═════════ EQUIPO ═════════ -->
+<section class="scene team-scene" id="equipo" data-scene="team" aria-labelledby="h-eq">
+  <div class="wrap narrow center">
+    <h2 id="h-eq"><span class="l"><span>Equipo</span></span></h2>
+    <div class="shield3d"><img class="escuela-lg" src="img/escuela.webp" width="192" height="190" alt="Escudo de la E.E.S. N°7 – E.E.S.T. N°3 Roberto Arlt" loading="lazy"></div>
+    <p class="lead">Proyecto realizado por</p>
+  </div>
+  <ul class="team">
+    <li style="--s:-1">Oviedo Celeste</li>
+    <li style="--s:1">Santana Lorenzo</li>
+    <li style="--s:-1">Silva Juana</li>
+  </ul>
+  <div class="wrap narrow center">
+    <p class="school">E.E.S. N°7 – E.E.S.T. N°3 <strong>Roberto Arlt</strong></p>
+  </div>
+</section>
+
+<!-- ═════════ COMPARTIR / QR ═════════ -->
+<section class="scene share" id="compartir" data-scene="share" aria-labelledby="h-sh">
+  <div class="share-bg" aria-hidden="true"></div>
+  <img class="px d-cit-share" style="--s:-.3;--r:1" src="img/deco-citricos-bot.webp" alt="" width="190" height="209" aria-hidden="true" loading="lazy">
+  <div class="wrap narrow center">
+    <h2 id="h-sh"><span class="l"><span>Compartí Afrika</span></span></h2>
+    <p class="lead">Escaneá el código QR o compartí el enlace.</p>
+    <div class="qr-box" data-tilt>
+      <canvas id="qr" width="300" height="300" role="img" aria-label="Código QR que lleva a esta página"></canvas>
+    </div>
+    <div class="share-btns">
+      <button class="btn btn-dark" id="btnShare" hidden>Compartir</button>
+      <button class="btn btn-dark" id="btnCopy">Copiar enlace</button>
+      <button class="btn btn-line-dark" id="btnQr">Descargar QR</button>
+    </div>
+    <p class="note" id="copyMsg" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <img src="img/singluten.webp" width="64" height="68" alt="Sin gluten" loading="lazy">
+  <p><strong>Alfajor Afrika</strong> · Innovación, Sabor y Desarrollo Tecnológico</p>
+  <p class="small">Oviedo Celeste, Santana Lorenzo, Silva Juana · E.E.S. N°7 – E.E.S.T. N°3 Roberto Arlt</p>
+  <a class="totop" href="#inicio">Volver arriba ↑</a>
+</footer>
+
+<dialog id="lightbox" aria-label="Foto ampliada">
+  <form method="dialog"><button class="close" aria-label="Cerrar">×</button></form>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</dialog>
+
+<script src="js/qrcode.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
